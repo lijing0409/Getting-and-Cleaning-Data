@@ -1,0 +1,13 @@
+test ~ the test sets
+train ~ the training sets
+data ~ merge the training and the test sets
+newdata ~ extracts only the measurements on the mean and standard deviation for each measurement
+colnames(newdata) ~ use descriptive activity names to name the activities in the data set
+test_name ~ the variable names of the test sets
+train_name ~ the variable names of the training sets
+data_name ~ merge the variable names of the training and the test sets
+newdata1 ~ appropriately labels the data set with descriptive variable names. 
+newdata2 ~ extracts only the measurements on the mean for each measurement. 
+result ~ create a second, independent tidy data set with the average of each variable for each activity and each subject.
+colnames(result) ~ rename the colnames
+write.table() ~ save the new dataset
